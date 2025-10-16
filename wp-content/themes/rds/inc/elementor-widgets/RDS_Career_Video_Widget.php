@@ -230,7 +230,7 @@ if ( $data && is_numeric( $data['id'] ) ) {
 		}
 		?>
     <!-- culture area starts -->
-    <div class="container-fluid content_py_80">
+    <div class="container-fluid">
         <div class="container">
             <?php 
 			// SAVE TO SPEC

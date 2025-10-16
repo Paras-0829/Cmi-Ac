@@ -52,7 +52,7 @@ if ( $data && is_numeric( $data['id'] ) ) {
 		]);
 
 		if (!empty($this->allVariation) && count($this->allVariation) > 1) {
-			$defaultVariation = isset($args["page_templates"]["blog"]["variation"]) ? $args["page_templates"]["blog"]["variation"] : "b";
+			$defaultVariation = isset($args["page_templates"]["blog"]["variation"]) ? $args["page_templates"]["blog"]["variation"] : "a";
 			$this->add_control("variation", [
 				"label" => "Variation",
 				"type" => \Elementor\Controls_Manager::SELECT,
@@ -81,7 +81,7 @@ if ( $data && is_numeric( $data['id'] ) ) {
 		}
 
 		//RENDER VARIATION
-		$variationVal = isset($settings["variation"]) ? sanitize_text_field($settings["variation"]) : 'b';
+		$variationVal = isset($settings["variation"]) ? sanitize_text_field($settings["variation"]) : 'a';
 		set_query_var('settings', $settings);
 		get_template_part($this->widgetPathFull . $variationVal, null, $args);
 ?>

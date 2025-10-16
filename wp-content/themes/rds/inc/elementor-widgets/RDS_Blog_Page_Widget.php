@@ -93,7 +93,7 @@ class RDS_Blog_Page_Widget extends \Elementor\Widget_Base
         query_posts($post_query_args);
         ?>
 
-        <div class="container-fluid page_content">
+        <div class="container-fluid pt-lg-4 pb-lg-0 pb-4 my-2  px-lg-3 px-0 page_content">
             <div class="container subpage_full_content pb-lg-5 mt-sn-100">
                 <div class="row pb-lg-4">
                     <div class="col-12">

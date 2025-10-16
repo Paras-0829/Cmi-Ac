@@ -17,7 +17,7 @@ function getCurrentUrl() {
 ?>
 <form role="search" method="get" id="searchform" action="<?php echo esc_url(getCurrentUrl()); ?>">
     <div class="row">
-        <div class="col-lg-4 my-0 pb-30 col-md-4 col-12 pe-lg-3 ">
+        <div class="col-lg-4 my-3 col-md-4 col-12 pe-lg-3">
             <div class="input-group">
                 <div class="input-group-prepend">
                     <button id="searchsubmit" aria-label="Center Align" type="submit" class="input-group-text color_tertiary_bg color_tertiary_hover_bg border-0 rounded-0 h-54 text-center w-54  cursor-pointer"><i class="icon-magnifying-glass2 true_black bc_text_18 bc_line_height_18 mx-auto"></i></button>
